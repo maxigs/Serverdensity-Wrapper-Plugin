@@ -4,7 +4,7 @@ require 'json'
 
 # generate some data
 # replace this with whatever data you actually have
-data = {'test' => 1}
+data = {'test' => 3}
 
 # return the data as json for the wrapper to parse
 puts data.to_json

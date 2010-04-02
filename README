@@ -1,5 +1,9 @@
-Serverdensity Wrapper Plugin
+Serverdensity Wrapper Plugins
 
-simply calles a external script and uses the received json data for the monitoring
+For ruby scripts: ruby_plugin.py, see documentation in file
 
-NOT WORKING YET (see http://stackoverflow.com/questions/2560754 )
+More to come ...
+
+
+
+Use at own Risk
