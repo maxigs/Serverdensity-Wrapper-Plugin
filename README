@@ -1,0 +1,5 @@
+Serverdensity Wrapper Plugin
+
+simply calles a external script and uses the received json data for the monitoring
+
+NOT WORKING YET (see http://stackoverflow.com/questions/2560754)
