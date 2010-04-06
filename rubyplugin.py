@@ -3,7 +3,7 @@
 # Tries to execute a ruby script with a similar filename as the current one and parses its JSON return data along to the agent.
 # 
 # USAGE:
-# - Rename this file to match the naming conventions for your custom plugin
+# - Rename this file to match the naming conventions for your custom plugin (carefull with underscores etc)
 # - Rename the class of this plugin to match the filename
 # - Create a ruby file which can be directly executed and returns JSON data following the
 #   The ruby file needs to have a similar filename as this file (but with .rb ending)
@@ -14,10 +14,10 @@
 # For further infos on Serverdensity plugins see: http://www.serverdensity.com/docs/agent/plugins/
 # 
 import os, logging, subprocess
-class ruby_plugin:
+class rubyplugin:
   def run(self):
     current_dir     = os.path.split(__file__)[0]
-    current_name    = os.path.split(__file__)[1].replace('.py', '')
+    current_name    = os.path.split(__file__)[1].replace('.pyc', '').replace('.py', '')
     
     pluginLogger    = logging.getLogger('plugin:' + current_name)
     
